@@ -13,7 +13,17 @@
  *= require_tree .
  *= require_self
  */
-body { padding-top: 100px; }
+html {
+	background: url(http://footnotescounseling.com/wp-content/uploads/2014/06/neuroscience.jpg) no-repeat center center fixed;
+	background-size: cover;
+} 
+body { 
+	background-color: transparent;
+	padding-top: 100px; }
 footer { margin-top: 100px; }
 table, td, th { vertical-align: middle; border: none; }
 th { border-bottom: 1px solid #DDD; }
+
+.navbar-default{
+	opacity: 0.5;
+}

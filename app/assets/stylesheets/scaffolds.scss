@@ -1,6 +1,7 @@
+$orange: orange;
 body {
-  background-color: #fff;
-  color: #333;
+  color: white;
+  text-shadow: #f00 1px 1px 0;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
@@ -19,15 +20,13 @@ pre {
 }
 
 a {
-  color: #000;
+  color: $orange;
 
-  &:visited {
-    color: #666;
-  }
+  
 
   &:hover {
     color: #fff;
-    background-color: #000;
+    background-color: $orange;
   }
 }
 
